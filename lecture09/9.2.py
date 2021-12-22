@@ -1,4 +1,4 @@
-import roman # да, из интернета
+import roman 
 
 
 class Number:
@@ -6,7 +6,7 @@ class Number:
 
     def __init__(self, numb):
         self.n = numb
-        # только такая идея была
+   
         self.bin = bin(self.n)
         self.hex = hex(self.n)
         self.dec = self.n
@@ -19,7 +19,7 @@ class Number:
 
 n = Number(401)
 n = n + Number(100)
-print(n.dec)  # тут я не совсем понял, ибо мы передаем всегда десятичное число, но можно было бы доработать
+print(n.dec)  
 print(n.bin)
 print(n.hex)
 print(n.roman)
